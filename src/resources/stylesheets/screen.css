@@ -66,3 +66,38 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 9, ../sass/screen.scss */
+body {
+  width: 5em;
+}
+
+/* line 19, ../sass/screen.scss */
+footer, header {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* line 23, ../sass/screen.scss */
+#nav .side {
+  float: right;
+  width: 320px;
+}
+
+/* line 29, ../sass/screen.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 35, ../sass/screen.scss */
+nav li {
+  display: inline-block;
+}
+/* line 37, ../sass/screen.scss */
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
