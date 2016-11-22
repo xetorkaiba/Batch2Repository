@@ -7,7 +7,12 @@ body {
     width:37%;
     padding: 10px;
 }
-#section2{  border:solid black 1px; float:right;width: 54%; padding:10px}
+#section2{
+    border:solid black 1px;
+     float:right;width: 58%;
+      padding:10px ;
+      background-color: #bbb8b8;
+      }
 .head{
         margin: 0 auto;
         border: solid 1px;
@@ -26,13 +31,22 @@ body {
 }
 .head3{
     border:black 1px solid;
-    backgroud-color: white;
+    background-color: white;
     padding: 16px;
     margin-top:4px;
     box-sizing: border-box;
 }
 .head4{
     border:black 1px solid;
+     border: black 1px solid;
+     padding: 15px;
+     background-color: white;
+}
+.head5{
+        padding: 15px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        background-color: white;
 }
 .nav1{
     border: black solid 1px;
@@ -64,16 +78,37 @@ li{ list-style: none; display: inline-block;}
 }
 .article1{
     border:black 1px solid;
+    border: black 1px solid;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding:10px;
 }
 .article2{
-    border:black 1px solid;
-}
-.p{
-    border:black 1px solid;
+        border: black 1px solid;
+        padding: 10px;
+        margin-top: 10px;
 }
 .footright1{
     border:black 1px solid;
 }
 .aside{
-    border:black 1px solid;
+        border: black 1px solid;
+        padding: 25px;
+        background-color: white;
+}
+.p1{
+    border: solid 1px black;
+    box-sizing: border-box;
+    background-color: white;
+}
+.p2{
+    border: solid 1px black;
+    box-sizing: border-box;
+    background-color: white;
+}
+.footerright1{
+    border: solid 1px black;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 15px;
 }
